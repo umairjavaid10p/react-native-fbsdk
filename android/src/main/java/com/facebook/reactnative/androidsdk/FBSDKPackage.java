@@ -58,7 +58,6 @@ public class FBSDKPackage implements ReactPackage {
         );
     }
 
-    @Override
     public List<ViewManager> createViewManagers(ReactApplicationContext reactContext) {
         return Arrays.<ViewManager>asList(
                 new FBLikeViewManager(),
